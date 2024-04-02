@@ -12,16 +12,20 @@ function App() {
     Aos.init({ duration: 1600 });
   }, []);
   return (
-    <div data-aos="fade-down">
+    // <div data-aos="fade-down">
+    <div>
       <Routes>
         <Route path="/" element={<Home></Home>} />
       </Routes>
-      <Routes>
-        <Route path="/Team" element={<Team></Team>} />
-        <Route path="/Contact" element={<Contact></Contact>} />
-        <Route path="/we-are" element={<WeAre></WeAre>} />
-        {/*  */}
-      </Routes>
+      //{" "}
+      <div data-aos="fade-down">
+        <Routes>
+          <Route path="/Team" element={<Team></Team>} />
+          <Route path="/Contact" element={<Contact></Contact>} />
+          <Route path="/we-are" element={<WeAre></WeAre>} />
+          {/*  */}
+        </Routes>
+      </div>
       <Footer></Footer>
     </div>
   );

@@ -15,7 +15,7 @@ function OffcanvasExample() {
           id="header"
         >
           <Container fluid>
-            <Navbar.Brand href="#">
+            <Navbar.Brand href="/">
               <img
                 src={logo}
                 alt=""
