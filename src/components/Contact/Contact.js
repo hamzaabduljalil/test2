@@ -1,5 +1,4 @@
 import "./Contact.css";
-import photo from "../imgs/b8-architecture-contact-image.jpg";
 import { Outlet } from "react-router-dom";
 import OffcanvasExample from "../Header/Header";
 

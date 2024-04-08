@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "./Header.css";
+import { NavLink } from "react-router-dom";
 import logo from "../imgs/logo1.png";
 function OffcanvasExample() {
   return (
@@ -42,10 +43,21 @@ function OffcanvasExample() {
                   className="justify-content-end flex-grow-1 pe-3"
                   id="header-link"
                 >
-                  <Nav.Link href="/">home</Nav.Link>
-                  <Nav.Link href="/we-are">we are</Nav.Link>
-                  <Nav.Link href="/Team">the team</Nav.Link>
-                  <Nav.Link href="/Contact">contact</Nav.Link>
+                  <NavLink activeClassName="active" to="/">
+                    home
+                  </NavLink>
+                  <NavLink activeClassName="active" to="/we-are">
+                    we are
+                  </NavLink>
+                  <NavLink activeClassName="active" to="/Team">
+                    the team
+                  </NavLink>
+                  <NavLink activeClassName="active" to="/projects">
+                    architectural
+                  </NavLink>
+                  <NavLink activeClassName="active" to="/Contact">
+                    contact
+                  </NavLink>
                 </Nav>
               </Offcanvas.Body>
             </Navbar.Offcanvas>

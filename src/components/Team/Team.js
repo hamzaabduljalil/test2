@@ -17,21 +17,18 @@ const Team = (props) => {
         <div className="ceo ">
           <img src={ceo} alt="Ceo"></img>
           <div className="details">
-            <h4>Muhannad Abduljlail</h4>
+            <h4>AHMAD ABDUL JALIL</h4>
             <p className="position">
-              CEO & Founder <br />
-              Senior Architect & Main Designer
+              CEO <br />
+              46 Years of Experience<br></br> Bachelor’s Degree in Civil
+              Engineering (Sep 1977)
             </p>
             <div className="details-text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
-              omnis, eveniet cupiditate dicta harum cumque magni unde ad placeat
-              <br />
-              nostrum quod earum excepturi odio repellat eaque numquam officiis
-              labore asperiores? Lorem ipsum dolor sit, amet consectetur
-              <br />
-              adipisicing elit. Sunt omnis, eveniet cupiditate dicta harum
-              cumque magni unde ad placeat nostrum quod earum excepturi odio
-              repellat eaque numquam officiis labore asperiores?
+              • Design and Execution of Construction Projects - Syria <br></br>•
+              Bin Sweid Contracting Company - UAE<br></br>• Thurayaat General
+              ContractingEstablishment - UAE<br></br>• Amana Company for Metal
+              Constructions - UAE<br></br>• Royal Dome for Engineering
+              Consultancy - UAE<br></br>
             </div>
           </div>
         </div>

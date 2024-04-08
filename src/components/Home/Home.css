@@ -5,7 +5,14 @@
   height: 100vh;
   overflow: hidden;
 }
-
+.slider .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.053);
+}
 .slider img {
   position: absolute;
   top: 0;
